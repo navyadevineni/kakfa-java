@@ -19,7 +19,7 @@ public class Producer {
 
         KafkaProducer<String, String> producer = new KafkaProducer<String, String>(props);
 
-        for (int i = 0; i <= 100; i++) {
+        for (int i = 0; i <= 10; i++) {
 
             ProducerRecord<String, String> record = new ProducerRecord<String, String>(topicName, key + i, value + i);
             // asynchronous send without callback.
