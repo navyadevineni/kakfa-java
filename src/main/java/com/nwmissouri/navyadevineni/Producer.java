@@ -8,7 +8,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 public class Producer {
     public static void main(String[] args) throws Exception {
 
-        String topicName = "SimpleProducerTopic";
+        String topicName = "producerconsumer-message";
         String key = "Key";
         String value = "Value";
 

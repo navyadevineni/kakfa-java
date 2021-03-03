@@ -9,8 +9,8 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 
 public class Consumer {
     public static void main(String[] args) throws Exception {
-        String topicName = "SimpleProducerTopic";
-        String groupName = "SimpleProducerTopicGroup";
+        String topicName = "producerconsumer-message";
+        String groupName = "group1";
 
         Properties props = new Properties();
         props.put("bootstrap.servers", "localhost:9092");
